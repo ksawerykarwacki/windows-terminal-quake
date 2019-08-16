@@ -21,7 +21,7 @@ namespace WindowsTerminalQuake
             }
             catch (Exception ex)
             {
-                _trayIcon.Notify(ToolTipIcon.Error, $"Cannot start: '{ex.Message}'.");
+                _trayIcon.Notify(ToolTipIcon.Error, $"Error: '{ex.Message}'.");
 
                 Close();
             }
